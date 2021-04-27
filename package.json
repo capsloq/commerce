@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "develop": "next",
     "start": "next start",
     "analyze": "BUNDLE_ANALYZE=both yarn build",
     "prettier-fix": "prettier --write .",
@@ -44,7 +45,8 @@
     "shopify-buy": "^2.11.0",
     "swr": "^0.4.0",
     "tabbable": "^5.1.5",
-    "tailwindcss": "^2.0.3"
+    "tailwindcss": "^2.0.3",
+    "typescript": "^4.2.4"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^1.20.0",
@@ -70,8 +72,7 @@
     "next-unused": "^0.0.3",
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-preset-env": "^6.7.0",
-    "prettier": "^2.2.1",
-    "typescript": "^4.0.3"
+    "prettier": "^2.2.1"
   },
   "husky": {
     "hooks": {
